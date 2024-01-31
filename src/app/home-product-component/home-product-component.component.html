@@ -1,12 +1,12 @@
+<br>
 <div id="content">
     <div class="container">
       <div class="row">
-    
-            <div *ngFor="let product of products"class="product1 col-6 col-sm-4 col-md-4 col-lg-3">
+            <div *ngFor="let product of products"class="product1 col-6 col-sm-4 col-md-4 col-lg-3 p-3 bg-light text-dark">
                 <img src="{{product.image}}"/>                
-                <h3><a href = "/product-detail/{{product.id}}">{{product.name}}</a></h3>
+                <h5><a href = "/product-detail/{{product.id}}">{{product.name}}</a></h5>
                 <span class="price">{{product.price}}</span><br>
-                <a class="btn btn-danger" (click)="addToCart(product.id,product.name,product.image,product.price)">Add to cart</a>
+                <a class="btn btn-warning" (click)="addToCart(product.id,product.name,product.image,product.price)">Mua ngay</a>
             </div>
     </div>      
     </div>

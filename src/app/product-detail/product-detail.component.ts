@@ -32,7 +32,7 @@ export class ProductDetailComponent {
   }
   getDetailProductById(id:number){
     // console.log(id);  
-    this.httpClient.get(`https://dummyjson.com/products/${id}`)
+    this.httpClient.get(`http://localhost:3000/products/${id}`)
     .subscribe((response:any)=>{
         // console.log(response);
         this.product = response;

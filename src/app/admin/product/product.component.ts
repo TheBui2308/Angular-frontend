@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
@@ -5,7 +6,7 @@ import { FormControl, FormGroup, ReactiveFormsModule, Validators } from '@angula
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule,CommonModule],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css'
 })
