@@ -1,0 +1,16 @@
+<div class="container mt-5">
+    <h1>Quản lý Danh Mục Sản Phẩm</h1>
+    
+    <!-- Your category management form here -->
+    <form (ngSubmit)="onSubmit()" [formGroup]="cateFormAdd">
+      <!-- Include necessary form fields for category management -->
+      <div class="form-group">
+        <label for="categoryName"><h3>Tên danh mục</h3></label>
+        <input type="text" class="form-control" id="categoryName" placeholder="Tên danh mục" formControlName="name">
+      </div>
+      
+      <!-- Include other category-related fields as needed -->
+  
+      <button type="submit" class="btn btn-primary mt-3">Them</button>
+    </form>
+  </div>

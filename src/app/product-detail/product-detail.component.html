@@ -13,3 +13,22 @@
       </div>
     </div>
   </div> -->
+  <div class="container ">
+    <h2>Product Detail</h2>
+    <p>Id sản phẩm: {{ product.id }}</p>
+    <div *ngIf="product">
+      <img src="{{ product.image }}" alt="{{ product.name }}"  width="300px"/>
+      <h3>{{ product.name }}</h3>
+      <p>Gía sản phẩm: {{ product.price }}</p>
+      <p>Mô tả sản phẩm: {{ product.detail}}</p>
+      <!-- Add more details as needed -->
+  
+      <!-- Example: Display a 'Buy Now' button -->
+      <button class="btn btn-warning" (click)="addToCart(product.id, product.name, product.image, product.price)">
+        Buy Now
+      </button>
+    </div>
+    <p style="text-align: justify;">Longines là một trong những thương hiệu lâu đời nhất thế giới. Cái tên Longines được xem như cái tên lão làng trong giới chơi đồng hồ. Sản phẩm của Longines được mệnh danh bền bỉ và chất lượng với thiết kế vô cùng độc đáo.</p>
+    <p>Sau gần 200 năm phát triển thì tính tới thời điểm hiện tại thương hiệu Longines đã được cả thế giới công nhận xứng đáng trở thành một trong những cái tên đứng đầu trong ngành chế tác đồng hồ</p>
+  </div>
+  

@@ -7,13 +7,16 @@ import { ProductComponent } from './admin/product/product.component';
 import { LoginComponent } from './admin/login/login.component';
 import { ProductAdminListComponent } from './admin/product/product-admin-list/product-admin-list.component';
 import { ProductEditComponent } from './admin/product/product-edit/product-edit.component';
-
+import { CategoryComponent } from './admin/category/category.component';
+import { CategoriesComponent } from './admin/categories/categories.component';
 export const routes: Routes = [
     {path: '', component: HomeComponentComponent},
     {path: 'product-detail/:id', component: ProductDetailComponent},
     {path: 'login', component: LoginComponent},
     {path: 'dashboard', component: DashboardComponent,canActivate: [guardGuard],
         children:[
+            {path:'category', component:CategoryComponent},
+            {path:'categories', component:CategoriesComponent},
             {path:'add-product', component:ProductComponent},
             {path:'product-list', component:ProductAdminListComponent},
             {path:'edit-product/:id', component:ProductEditComponent}

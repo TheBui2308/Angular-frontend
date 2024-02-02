@@ -7,12 +7,20 @@
     {
       "id": "2",
       "name": "Tai nghe"
+    },
+    {
+      "id": "7b51",
+      "name": "fghfg"
+    },
+    {
+      "id": "a6fb",
+      "name": "dfg"
     }
   ],
   "products": [
     {
       "name": "Casio - Nam MTP-VT01L-1BUDF Size 40mm",
-      "price": 810000,
+      "price": "810.000",
       "cate_id": "1",
       "image": "https://wscdn.vn/upload/image/1-KHUNG-SP-1295457203-1583419474.webp",
       "detail": "Sản phẩm rất đẹp",
@@ -21,7 +29,7 @@
     {
       "id": "6htk",
       "name": "Casio - Nam MTP-VT01L-1BUDF Size 40mm",
-      "price": 850000,
+      "price": "850.000",
       "cate_id": 1,
       "image": "https://wscdn.vn/upload/image/1-KHUNG-SP-1713613917-1898324848.webp",
       "detail": "Sản phẩm rất đẹp"
@@ -29,7 +37,7 @@
     {
       "id": "3hek",
       "name": "Casio - Nam MTP-VT01L-1BUDF Size 40mm",
-      "price": 1000000,
+      "price": "850.000",
       "cate_id": 1,
       "image": "https://wscdn.vn/upload/image/1-KHUNG-SP-1295457203-1583419474.webp",
       "detail": "Sản phẩm rất đẹp"
@@ -37,7 +45,7 @@
     {
       "id": "4ik3",
       "name": "Casio - Nam MTP-VT01L-1BUDF Size 40mm",
-      "price": 810000,
+      "price": "800.000",
       "cate_id": 1,
       "image": "https://wscdn.vn/upload/image/1-KHUNG-SP-1713613917-1898324848.webp",
       "detail": "Sản phẩm rất đẹp"
@@ -45,7 +53,7 @@
     {
       "id": "5et3",
       "name": "Tai nghe bluetooth Hoco E63 size 30mm",
-      "price": 500000,
+      "price": "500.000",
       "cate_id": 1,
       "image": "https://thegioitainghe.vn/wp-content/uploads/2022/11/tai-nghe-bluetooth-hoco-e63-1-600x600.jpg",
       "detail": "Sản phẩm rất đẹp"
@@ -53,7 +61,7 @@
     {
       "id": "6tj3",
       "name": "Tai nghe bluetooth Hoco E699 Size 40mm",
-      "price": 600000,
+      "price": "600.000",
       "cate_id": 1,
       "image": "https://thegioitainghe.vn/wp-content/uploads/2022/04/tai-nghe-hoco-ew-40-600x600.jpg",
       "detail": "Sản phẩm rất đẹp"
@@ -61,18 +69,26 @@
     {
       "id": "7tmk",
       "name": "Tai Bluetooth TWS TZUZL KJ12 size 30mm",
-      "price": 810000,
+      "price": "700.000",
       "cate_id": 2,
       "image": "https://thegioitainghe.vn/wp-content/uploads/2022/07/tai-bluetooth-tzuzl-kj12-tws.jpg",
       "detail": "Sản phẩm rất đẹp"
     },
     {
       "name": "Tai nghe bluetooth hoco DES02 Max 999",
-      "price": 999999,
+      "price": "800.000",
       "cate_id": 2,
       "image": "https://thegioitainghe.vn/wp-content/uploads/2021/05/tai-nghe-bluetooth-hoco-EW2.jpg",
       "detail": "Sản phẩm rất đẹp",
       "id": "8ok2"
+    },
+    {
+      "name": "sản phẩm đồng hồ nhập từ ý rất đẹp sm 222222",
+      "price": 800000,
+      "cate_id": "2",
+      "image": "okrraa a aaaa",
+      "detail": "ádasd",
+      "id": "9da7"
     }
   ],
   "orders": [],
