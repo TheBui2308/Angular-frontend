@@ -37,11 +37,17 @@ export class CategoriesComponent implements OnInit {
         confirmButtonText: 'Xóa',
         cancelButtonText: 'Hủy',
       }).then((result) => {
-        if (result.value) {
-          this.categoryService.deleteCategory(id).subscribe((data) => {
-            Swal.fire('Đã xóa!', 'Xóa danh mục thành công', 'success');
-            this.getListCategory();
-          });
+        if (result.isConfirmed) {
+          this.categoryService.deleteCategory(id).subscribe(
+            () => {
+              Swal.fire('Đã xóa!', 'Xóa danh mục thành công', 'success');
+              this.getListCategory();
+            },
+            (error) => {
+              console.error('Error deleting category:', error);
+              Swal.fire('Lỗi', 'Đã xảy ra lỗi khi xóa danh mục', 'error');
+            }
+          );
         } else if (result.dismiss === Swal.DismissReason.cancel) {
           Swal.fire('Đã hủy', 'Bạn đã hủy thao tác thành công', 'error');
         }
@@ -49,3 +55,4 @@ export class CategoriesComponent implements OnInit {
     }
   }
 }
+

@@ -9,10 +9,14 @@ import { ProductAdminListComponent } from './admin/product/product-admin-list/pr
 import { ProductEditComponent } from './admin/product/product-edit/product-edit.component';
 import { CategoryComponent } from './admin/category/category.component';
 import { CategoriesComponent } from './admin/categories/categories.component';
+import { CartComponent } from './user/cart/cart.component';
+import { CheckoutComponent } from './user/checkout/checkout.component';
 export const routes: Routes = [
     {path: '', component: HomeComponentComponent},
     {path: 'product-detail/:id', component: ProductDetailComponent},
     {path: 'login', component: LoginComponent},
+    {path: 'cart', component: CartComponent},
+    {path: 'checkout', component: CheckoutComponent},
     {path: 'dashboard', component: DashboardComponent,canActivate: [guardGuard],
         children:[
             {path:'category', component:CategoryComponent},

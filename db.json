@@ -9,18 +9,14 @@
       "name": "Tai nghe"
     },
     {
-      "id": "7b51",
-      "name": "fghfg"
-    },
-    {
-      "id": "a6fb",
-      "name": "dfg"
+      "id": "9048",
+      "name": "máy tính"
     }
   ],
   "products": [
     {
       "name": "Casio - Nam MTP-VT01L-1BUDF Size 40mm",
-      "price": "810.000",
+      "price": 810000,
       "cate_id": "1",
       "image": "https://wscdn.vn/upload/image/1-KHUNG-SP-1295457203-1583419474.webp",
       "detail": "Sản phẩm rất đẹp",
@@ -29,7 +25,7 @@
     {
       "id": "6htk",
       "name": "Casio - Nam MTP-VT01L-1BUDF Size 40mm",
-      "price": "850.000",
+      "price": 850000,
       "cate_id": 1,
       "image": "https://wscdn.vn/upload/image/1-KHUNG-SP-1713613917-1898324848.webp",
       "detail": "Sản phẩm rất đẹp"
@@ -37,7 +33,7 @@
     {
       "id": "3hek",
       "name": "Casio - Nam MTP-VT01L-1BUDF Size 40mm",
-      "price": "850.000",
+      "price": 850000,
       "cate_id": 1,
       "image": "https://wscdn.vn/upload/image/1-KHUNG-SP-1295457203-1583419474.webp",
       "detail": "Sản phẩm rất đẹp"
@@ -45,7 +41,7 @@
     {
       "id": "4ik3",
       "name": "Casio - Nam MTP-VT01L-1BUDF Size 40mm",
-      "price": "800.000",
+      "price": 800000,
       "cate_id": 1,
       "image": "https://wscdn.vn/upload/image/1-KHUNG-SP-1713613917-1898324848.webp",
       "detail": "Sản phẩm rất đẹp"
@@ -53,7 +49,7 @@
     {
       "id": "5et3",
       "name": "Tai nghe bluetooth Hoco E63 size 30mm",
-      "price": "500.000",
+      "price": 500000,
       "cate_id": 1,
       "image": "https://thegioitainghe.vn/wp-content/uploads/2022/11/tai-nghe-bluetooth-hoco-e63-1-600x600.jpg",
       "detail": "Sản phẩm rất đẹp"
@@ -61,7 +57,7 @@
     {
       "id": "6tj3",
       "name": "Tai nghe bluetooth Hoco E699 Size 40mm",
-      "price": "600.000",
+      "price": 600000,
       "cate_id": 1,
       "image": "https://thegioitainghe.vn/wp-content/uploads/2022/04/tai-nghe-hoco-ew-40-600x600.jpg",
       "detail": "Sản phẩm rất đẹp"
@@ -69,28 +65,73 @@
     {
       "id": "7tmk",
       "name": "Tai Bluetooth TWS TZUZL KJ12 size 30mm",
-      "price": "700.000",
+      "price": 700000,
       "cate_id": 2,
       "image": "https://thegioitainghe.vn/wp-content/uploads/2022/07/tai-bluetooth-tzuzl-kj12-tws.jpg",
       "detail": "Sản phẩm rất đẹp"
     },
     {
       "name": "Tai nghe bluetooth hoco DES02 Max 999",
-      "price": "800.000",
+      "price": 800000,
       "cate_id": 2,
       "image": "https://thegioitainghe.vn/wp-content/uploads/2021/05/tai-nghe-bluetooth-hoco-EW2.jpg",
       "detail": "Sản phẩm rất đẹp",
       "id": "8ok2"
     },
     {
-      "name": "sản phẩm đồng hồ nhập từ ý rất đẹp sm 222222",
-      "price": 800000,
+      "id": "2b6a",
+      "name": "sản phẩm 1",
+      "price": 100000,
       "cate_id": "2",
-      "image": "okrraa a aaaa",
-      "detail": "ádasd",
-      "id": "9da7"
+      "image": "https://wscdn.vn/upload/image/L2-1631370034-625115582.jpg",
+      "detail": "sản phẩm rất chất lượng"
+    },
+    {
+      "name": "sản phẩm 1",
+      "price": 500000,
+      "cate_id": "2",
+      "image": "https://salt.tikicdn.com/ts/product/fe/99/e0/0b82ffe21f795715935a0bcae9444fb4.jpg",
+      "detail": "22222",
+      "id": "3530"
     }
   ],
-  "orders": [],
-  "order_details": []
+  "orders": [
+    {
+      "id": "92a3",
+      "name": "234234",
+      "address": "423423",
+      "phone": "234234234",
+      "status": "Đang xử lý"
+    },
+    {
+      "id": "d0b1",
+      "name": "bùi quang",
+      "address": "nam định",
+      "phone": "09999999",
+      "status": "Đang xử lý"
+    },
+    {
+      "id": "d83f",
+      "name": "bui quang the",
+      "address": "nam dinh",
+      "phone": "096666",
+      "status": "Đang xử lý"
+    }
+  ],
+  "order_details": [
+    {
+      "id": "f03a",
+      "orderid": "d0b1",
+      "pid": "1h43",
+      "quantity": 1,
+      "unit_price": 810000
+    },
+    {
+      "id": "07ca",
+      "orderid": "d83f",
+      "pid": "6tj3",
+      "quantity": 2,
+      "unit_price": 1200000
+    }
+  ]
 }
